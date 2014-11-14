@@ -22,4 +22,7 @@ class PagesController < ApplicationController
 
   def distributors
   end
+
+  def pay
+  end
 end

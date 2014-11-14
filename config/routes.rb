@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resources :charges
+  resources :purchases, only: [:show]
   root 'pages#index'
   get 'team' => 'pages#team'
   get 'course_syllabus' => 'pages#course_syllabus'
@@ -7,6 +9,7 @@ Rails.application.routes.draw do
   get 'privacy' => 'pages#privacy'
   get 'terms' => 'pages#terms'
   get 'distributors' => 'pages#distributors'
+  get 'pay' => 'pages#pay'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

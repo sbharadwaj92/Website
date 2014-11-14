@@ -11,6 +11,7 @@ gem 'jquery-turbolinks'
 gem 'jbuilder', '~> 2.0'
 gem 'stripe', :git => 'https://github.com/stripe/stripe-ruby'
 gem 'figaro'
+gem 'bootstrap-sass'
 
 group :development, :test do
   gem 'sqlite3'
