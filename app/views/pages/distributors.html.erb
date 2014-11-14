@@ -1,0 +1,34 @@
+<%= render 'pages/header' %>
+<%= render 'pages/hero_thin' %>
+<div id="coursePage">
+
+  <div class="container" style="padding: 25px 0 25px 0">
+    <h3>Educational Partners</h3>
+  </div>
+
+  <div style="background: #DFE2E5; min-height: 500px; padding: 30px 0">
+    <div class="container">
+
+      <div id="contactForm">
+      <strong>Contact Us</strong><br>
+
+      <form method="post" name="emailCapture" action="email.php">
+        <input name="name" type="text" placeholder="Name">
+        <input name="email" type="text" placeholder="Email">
+        <input name="type" type="hidden" value="distributor">
+        <textarea name="message" placeholder="Message"></textarea>
+        <input type="submit" value="Send">
+      </form>
+      </div>
+      <strong>SmartOn is looking for educational partners who fill the following criteria. </strong><br>
+      a) Reputed Educational Brands<br>
+      b) Looking to expand their offering via online short-term skill programs<br>
+      c) With global reach<br><br>
+      <strong>Existing Partnerships</strong><br>
+      <a href="http://Pearllive.com">Pearllive &rarr;</a>
+
+    </div>
+  </div>
+
+</div>
+<%= render 'pages/footer' %>

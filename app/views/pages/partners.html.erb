@@ -1,0 +1,36 @@
+<%= render 'pages/header' %>
+<%= render 'pages/hero_thin' %>
+<div id="coursePage">
+
+  <div class="container" style="padding: 25px 0 25px 0">
+    <h3>Product Partners</h3>
+  </div>
+
+  <div style="background: #DFE2E5; min-height: 500px; padding: 30px 0">
+    <div class="container">
+
+      <div id="contactForm">
+      <strong>Contact Us</strong><br>
+
+      <form method="post" name="emailCapture" action="email.php">
+        <input name="name" type="text" placeholder="Name">
+        <input name="email" type="text" placeholder="Email">
+        <input name="type" type="hidden" value="partners">
+        <textarea name="message" placeholder="Message"></textarea>
+        <input type="submit" value="Send">
+      </form>
+      </div>
+      <strong>SmartOn is looking for products partners who fill the following criteria. </strong><br>
+      a) SAAS Technology Companies<br>
+      b)  Global, Modern and High-Growth<br>
+      c)  One of the top companies in their category<br><br>
+      
+      <!-- d)  Relatively early stages of investment in their consumer educational -->
+      <!-- efforts<br> -->
+
+
+    </div>
+  </div>
+
+</div>
+<%= render 'pages/footer' %>

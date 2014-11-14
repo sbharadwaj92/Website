@@ -1,0 +1,51 @@
+<%= render 'pages/header' %>
+<%= render 'pages/hero_thin' %>
+<div id="coursePage">
+
+  <div class="container" style="padding: 25px 0 25px 0">
+    <h3>Contact Us</h3>
+  </div>
+
+  <div style="background: #DFE2E5; min-height: 500px; padding: 30px 0">
+    <div class="container">
+
+      <div id="contactForm">
+      <strong>Contact Us</strong><br>
+      
+      <form method="post" name="emailCapture" action="email.php">
+        <input name="name" type="text" placeholder="Name">
+        <input name="email" type="text" placeholder="Email">
+        <input name="type" type="hidden" value="contactus">
+        <textarea name="message" placeholder="Message"></textarea>
+        <input type="submit" value="Send">
+      </form>
+
+      </div>
+      <strong>Thank you for taking the time to contact us. </strong><br>
+      We look forward to helping you!<Br><br>
+
+      <strong>Email Contact</strong><br>
+      For general purposes: support@smarton.co<br>
+
+      <br>
+
+      
+      <strong>US Office</strong><br>
+      1407 Broadway<br>
+      24th Floor<br>
+      New York, NY 10018<br><br>
+
+      <strong>India Office</strong><br>
+
+      Plot 99<br>
+      1st Floor<br>
+      Koramangala Industrial Area<br>
+       Bangalore - 560095, India
+
+
+
+    </div>
+  </div>
+
+</div>
+<%= render 'pages/footer' %>
